@@ -1,0 +1,117 @@
+body{
+    background-color: #d4dedba5;
+  }
+  nav {
+    background-color: rgb(251, 251, 251);
+    height: 90px;
+    width: 100%;
+  }
+  .logo {
+    height: 200px;
+    margin: 0px;
+    display: flex;
+  }
+  .logo img {
+    height: 80px;
+    width: 160px;
+  }
+  .box {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+  }
+
+  #search {
+    padding: 21px 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 300px;
+    max-width: 100%;
+    font-size: 16px;
+    height: 12px;
+    margin: 15px;
+  }
+  .login {
+    background-color: #12918f;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .secondbar {
+    background-color: #fffefe;
+    overflow: hidden;
+    text-align: center; /* Center-align the items */
+  }
+  .secondbar a {
+    display: inline-block;
+    padding: 20px;
+    color: rgb(107, 105, 105);
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .secondbar a:hover {
+    background-color: #49e0b8;
+  }
+  .wordplay {
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: large;
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+        overflow: hidden;
+  }
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: 1px solid black;
+    transition: 0.3s;
+    width: 55%;
+    padding: 25px;
+    height: 320px;
+    justify-content: space-between;
+  }
+
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  .card-container .card img {
+    height: 200px;
+  }
+  .card-container .card .container p {
+    overflow: hidden;
+  }
+  .event-button {
+        display: block;
+        background-color: #ff8000;
+        color: #fff;
+        padding: 8px 16px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 0.875rem;
+        text-align: center;
+        margin-top: 10px;
+        width: 100%; /* Make the button full width within the card */
+        transition: background-color 0.3s ease;
+    }
+
+    .event-button:hover {
+        background-color: #0056b3;
+    }
